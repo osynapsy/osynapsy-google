@@ -1,0 +1,24 @@
+{
+    "name": "osynapsy/osynapsy-google",
+    "version": "0.1",
+    "homepage": "http://www.osynapsy.net/google",
+    "type": "library",
+    "description": "Osynapsy google helpers",
+    "keywords": ["Osynapsy", "Address geocoding"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/osynapsy-google/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\Google\\": "src/Osynapsy/Google/"
+        }
+    }
+}
